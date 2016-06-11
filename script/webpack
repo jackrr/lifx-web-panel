@@ -1,4 +1,7 @@
 #! /bin/bash
 
+# cd webpack
+# ../node_modules/webpack/bin/webpack.js
+
 cd webpack
-../node_modules/webpack/bin/webpack.js
+../node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base ../ --hot --inline
